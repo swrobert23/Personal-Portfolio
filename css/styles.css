@@ -22,11 +22,19 @@ a, a:hover {
 
 /*Classes*/
 
+.aboutMe {
+    text-align: center;
+}
+
 .jumbotron {
     margin: 0; 
     padding: 30px;
     background-image: linear-gradient(to right, #F1F6F9, #9BA4B5, #394867, #212A3E);
     color: #F1F6F9;
+}
+
+.img-fluid {
+    size: 20%;
 }
 
 .row-content {
@@ -42,6 +50,8 @@ a, a:hover {
 .site-footer {
     background-image: linear-gradient(#212A3E, #F1F6F9);
     padding: 20px 0;
+    color: #FFFFFF;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 1);
 }
 
 .carousel-caption {
